@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    font-family: "Afacad Flux", sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.weraper{
+    padding: 80px;
+}
+main{
+    overflow-x: hidden;
+}
+/*   Navber top   */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.logo{
+    font-size: 28px;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 2px;
+    color: #484C4C;
+}
+/* Navber bottom */
+.navber-top{
+    display: flex;
+}
+.navber-top ul{
+    display: flex;
+    gap: 30px;
+    font-weight: 700;
+    list-style: none;
+    padding: 2px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #484C4C;
+    cursor: pointer;
+}
+/* Navber icon */
+.navber-icon{
+    display: flex;
+    gap: 20px;
+    font-size: 28px;
+    margin-left: 30px;
+    cursor: pointer;
+    
+}
+/* Navber End */
+
+
+/* Hero section start */
+.hero1{
+    display: flex;
+}
+.hero2 {
+    margin: 120px 5px;
+    
+   
+}
+.hero2 h1{
+    width: 75%;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 70px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+.hero2 p{
+    font-size: 18px;
+    width: 62%;
+    font-weight: bold;
+    color: #323436;
+    margin-bottom: 20px;
+}
+.hero2 button {
+    width: 170px;
+    height: 38px ;
+    border: none;
+    background-color: #E22E6D;
+    color: white;
+    font-size: 18px;
+    font-weight: 550;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 8px; 
+    cursor: pointer;
+}
+
+.hero2 .btn-icon {
+    display: inline-flex;
+    align-items: center;   
+}
+
+
+/* Camera img Cyrcle bacground */
+.hero3 {
+    background-image: url(images/Circle\ design.svg); 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    background-position: center; 
+}
+
+
+.hero3 img{
+    padding: 30px ;
+}
+.hero3{
+    margin-top: 50px;
+    margin-bottom: 60px;
+   
+}
+/* Brand logo */
+.brand-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+hr{
+    margin: 35px;
+    height: 1px;
+    background-color: #3F3C38;
+}
+.brand-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 120px 100px;
+    padding: 35px 0;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    border-image-slice: 1
+}
+
+
+/*     product ,bg ,img,details,rating,description       */
+
+
+
+
+/*  product of css */
+h5{
+    text-align: center;
+    font-size: 35px;
+    color: #323436;
+    margin-bottom: 50px;
+}
+.Products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    margin: 20px 100px;
+    cursor: pointer;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0px 0px  40px rgb(204, 193, 193);
+    border: none;
+    border-radius: 8px;
+    
+}
+
+.product-img img {
+    width: 100%;
+    height: auto;
+}
+
+.product-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-details h3 {
+    font-size: 25px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.product .ratings {
+    margin-bottom: 10px;
+}
+
+.product-ratings{
+    border: none;
+    color: orange;
+}
+.product-ratings .rate {
+    color: #555;
+    font-weight: 800;
+}
+
+
+@media (max-width: 768px) {
+    .Products {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    .Products {
+        grid-template-columns: 1fr; 
+    }
+}
+/*   products end */
+
+/* See more btn */
+
+
+.see-more  {
+    margin-left: 174vh;
+    width: 180px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: #E45594;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.see-more span {
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* see more bt end */
+
+
+/*   Featured products  */
+
+
+.Feature-product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    
+    
+}
+.section-right {
+    width: 50%;
+    margin-left: 40px;
+}
+.section-right h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    color: #0A0826;
+}
+.section-right p {
+    width: 60%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #484C4C;
+}
+.btn-square {
+    background-color: #E22E6D;
+    border: none;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0826;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 3px;
+    text-align: center;
+
+}
+footer p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+/* Footer End */
+
+
+
+/*                  Project         End            */
